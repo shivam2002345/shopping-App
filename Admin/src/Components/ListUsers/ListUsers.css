@@ -1,0 +1,84 @@
+.list-users {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .listusers-header {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr 1fr;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .listusers-header span {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  hr {
+    margin: 10px 0;
+  }
+  
+  .listusers-allusers {
+    max-height: 500px;
+    overflow-y: auto;
+  }
+  
+  .listusers-row {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr 1fr;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .listusers-profile-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .actions .faPenToSquare,
+  .actions .faTrash {
+    cursor: pointer;
+  }
+  
+  .actions .faPenToSquare:hover,
+  .actions .faTrash:hover {
+    color: #007bff; /* Color for hover effect */
+  }
+  
+  .listusers-row span {
+    padding: 5px;
+  }
+  
+  .listusers-row span:nth-child(1) {
+    display: flex;
+    align-items: center;
+  }
+  
+  .listusers-row span:nth-child(2) {
+    font-weight: bold;
+  }
+  
+  .listusers-row span:nth-child(4) {
+    color: #007bff; /* Color for role */
+  }
+  
+  .listusers-row span:nth-child(5) {
+    text-align: center;
+  }
+  
+  
